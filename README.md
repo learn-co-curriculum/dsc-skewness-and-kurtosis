@@ -1,16 +1,16 @@
 
 # Skewness and Kurtosis
 
+## Introduction
 We have previously identified a normal distribution to be symmetrical in shape. But this may not be the case most of the time when dealing real world data. This lesson will cover the attributes of a normal distribution that define how much "out-of-shape" it is. 
 
 ## Objectives
-Students would be able to:
+You will be able to:
 
 * Understand the concept of symmetrical distribution
 * Calculate and describe skewness and kurtosis as measures of non-symmetry
 
-
-### Symmetric Distributions
+## Symmetric Distributions
 
 A distribution is symmetric if the relative frequency or probability is the same at equal distances from the point of symmetry . The point of symmetry for normal distributions would be the center of that distribution i.e. the mean. We can refer to the point of symmetry as **𝛼**. 
 
@@ -30,11 +30,11 @@ Skewness is the degree of distortion or deviation from the symmetrical bell curv
 
 Skewness helps you identify extreme values in one versus the other tail. A symmetrical distribution will have a skewness of 0. There are two types of Skewness: Positive and Negative
 
-#### Positive Skewness
+### Positive Skewness
 
 Positive Skewness is present in a distribution when the tail on the right side of the distribution is longer (or fatter - as it is normally called). The mean and median will be greater than the mode.
 
-#### Negative Skewness
+### Negative Skewness
 Negative Skewness is present in a distribution when the tail of the left side of the distribution is longer or fatter than the tail on the right side. The mean and median will be less than the mode.
 
 This behavior is shown in the images below:
@@ -43,7 +43,7 @@ This behavior is shown in the images below:
 
 Here the fact that mean is not the same as median and mode anymore brings in consequences for data analysis. The normality assumption that we associate with a given data data for analysis does not hold true when these situations happen. Later we shall see how to deal with such distributions. 
 
-#### Measuring Skewness
+### Measuring Skewness
 
 For univariate data Y1, Y2, ..., YN, the formula for skewness is:
 
@@ -77,7 +77,7 @@ Kurtosis deals with the lengths of tails in the distribution. There is general m
 
 Here we see that long tails are generally due to errors in the measurement as the peaks of the data (correct values) are all centred around the mean of the distribution. Long tails here are the signs that apart of correct measurements, we also have data about outliers present in our dataset. 
 
-#### Measuring Kurtosis
+### Measuring Kurtosis
 
 For univariate data Y1, Y2, ..., YN, the formula for kurtosis is:
 
