@@ -2,7 +2,7 @@
 # Skewness and Kurtosis
 
 ## Introduction
-We have previously identified a normal distribution to be symmetrical in shape. But this may not be the case most of the time when dealing real world data. This lesson will cover the attributes of a normal distribution that define how much "out-of-shape" it is. 
+We have previously identified a normal distribution to be symmetrical in shape. But this may not be the case most of the time when dealing real with world data. This lesson will cover the attributes of a normal distribution that define how much "out-of-shape" it is. 
 
 ## Objectives
 You will be able to:
@@ -22,7 +22,7 @@ For example have a look at following histogram we saw when discussing measures o
 
 This distribution meets all of the conditions of being symmetrical. 
 
-The most common symmetric distribution is the normal distribution, however there are a number of other distributions that are symmetric. [Here is a good article](chttps://www.statisticshowto.datasciencecentral.com/symmetric-distribution-2/) that looks into all sorts of symmetrical distributions. We shall focus on normal distributions here and see how these can lose symmetry.
+The most common symmetric distribution is the normal distribution, however there are a number of other distributions that are symmetric. [Here is a good article](https://www.statisticshowto.datasciencecentral.com/symmetric-distribution-2/) that looks into all sorts of symmetrical distributions. We shall focus on normal distributions here and see how these can lose symmetry.
 
 ## Skewness
 
@@ -41,13 +41,13 @@ This behavior is shown in the images below:
 
 ![](skew1.jpeg)
 
-Here the fact that mean is not the same as median and mode anymore brings in consequences for data analysis. The normality assumption that we associate with a given data data for analysis does not hold true when these situations happen. Later we shall see how to deal with such distributions. 
+Here the fact that mean is not the same as median and mode anymore brings in consequences for data analysis. The normality assumption that we associate with a given data for analysis does not hold true when these situations happen. Later we shall see how to deal with such distributions. 
 
 ### Measuring Skewness
 
 For univariate data Y1, Y2, ..., YN, the formula for skewness is:
 
-**Skewness= ∑ N<sub>i=1</sub> (Yi−Y)<sup>3</sup> / N)/s<sup>3</sup>**
+**Skewness= ∑ N<sub>i=1</sub> ((Yi−Y)<sup>3</sup> / N)/s<sup>3</sup>**
 
 where Y¯ is the mean, s is the standard deviation, and N is the number of data points. Note that in computing the skewness. The above formula for skewness is referred to as the **Fisher-Pearson coefficient of skewness**. There are also other ways to calculate skewness but this one is used mostly commonly. 
 
@@ -72,10 +72,10 @@ If the peak of the distributed data was right of the average value, that would m
 
 ## Kurtosis
 
-Kurtosis deals with the lengths of tails in the distribution. There is general misconception that kurtosis is a measure of "peakedness" in a distributions. Well kurtosis is not really the peakedness or flatness. It is used to describe the extreme values in one versus the other tail. It is actually the **measure of outliers** present in the distribution.
+Kurtosis deals with the lengths of tails in the distribution. There is general misconception that kurtosis is a measure of "peakedness" in a distribution. Well kurtosis is not really the peakedness or flatness. It is used to describe the extreme values in one versus the other tail. It is actually the **measure of outliers** present in the distribution.
 ![](kurt1.png)
 
-Here we see that long tails are generally due to errors in the measurement as the peaks of the data (correct values) are all centred around the mean of the distribution. Long tails here are the signs that apart of correct measurements, we also have data about outliers present in our dataset. 
+Here we see that long tails are generally due to errors in the measurement as the peaks of the data (correct values) are all centered around the mean of the distribution. Long tails here are the signs that apart from correct measurements, we also have data about outliers present in our dataset. 
 
 ### Measuring Kurtosis
 
@@ -84,10 +84,10 @@ For univariate data Y1, Y2, ..., YN, the formula for kurtosis is:
 **kurtosis =∑ N<sub>(i=1)</sub> (Yi−Y¯)<sup>4</sup> / N / s<sup>4</sup>**
 
 If there is a high kurtosis, then, we need to investigate why do we have so many outliers. 
-Presence of outliers could be indications of errors OR some interesting observations that may need to be explored further. Remember for banking transactions, an outliers might signify a possible fraudulent activity. How we deal with outliers depends mainly on the domain. 
+Presence of outliers could be indications of errors OR some interesting observations that may need to be explored further. Remember for banking transactions, an outlier might signify a possible fraudulent activity. How we deal with outliers depends mainly on the domain. 
 So always Investigate!
 
-Low kurtosis in a data set is an indicator that data has light tails or lack of outliers. If we get low kurtosis(too good to be true), then also we need to investigate and trim the dataset of unwanted results.
+Low kurtosis in a data set is an indicator that data has light tails or lack of outliers. If we get low kurtosis (too good to be true), then also we need to investigate and trim the dataset of unwanted results.
 
 ### How much kurtosis is bad kurtosis ?
 
@@ -95,7 +95,7 @@ Low kurtosis in a data set is an indicator that data has light tails or lack of 
 
 #### Mesokurtic 
 
-This distribution has kurtosis statistic similar to that of the normal distribution. It means that the extreme values of the distribution are similar to that of a normal distribution characteristic. This definition is used so that the standard normal distribution has a kurtosis of three.
+A Mesokurtic distribution has kurtosis statistic similar to that of the standard normal distribution. It means that the extreme values of the distribution are similar to that of a normal distribution characteristic. This definition is used so that the standard normal distribution has a kurtosis of three.
 
 #### Leptokurtic (Kurtosis > 3)
 
@@ -111,4 +111,4 @@ The reason for this is because the extreme values are less than that of the norm
 
 ## Summary 
 
-In this lesson, we learned about the characteristics of distributions( specifically normal distribution) that identify the level of non-symmetry and presence of consistent outliers in the data. Next we shall see how to measure skewness and kurtosis in python. 
+In this lesson, we learned about the characteristics of normal distribution that identify the level of non-symmetry and presence of consistent outliers in the data. Next we shall see how to measure skewness and kurtosis in python. 
