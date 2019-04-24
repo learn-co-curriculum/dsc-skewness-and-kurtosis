@@ -94,7 +94,7 @@ Low kurtosis in a data set is an indication that data has light tails or lack of
 
 ### How much kurtosis is bad kurtosis?
 
-<img src = "images/kurt2.jpg" width ="400">
+<img src = "images/mesokurtosis.jpeg" width ="400">
 
 #### Mesokurtic 
 
