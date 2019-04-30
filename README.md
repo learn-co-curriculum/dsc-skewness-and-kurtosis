@@ -25,13 +25,15 @@ The most common symmetric distribution is the normal distribution, however, ther
 
 ## Skewness
 
-Skewness is the degree of distortion or deviation from the symmetrical bell curve that is a key characteristic of a normal distribution. Skewness can be seen as a measure to calculate the lack of symmetry in the data distribution.
+Skewness is the degree of distortion or deviation from the symmetrical normal distribution. Skewness can be seen as a measure to calculate the lack of symmetry in the data distribution.
 
-Skewness helps you identify extreme values in one of the tails. Symmetrical distribution has a skewness of 0. There are two types of Skewness: Positive and Negative.
+Skewness helps you identify extreme values in one of the tails. Symmetrical distribution has a skewness of 0. 
+
+Distributions can be **positively** or **negatively** skewed.
 
 ### Positive Skewness
 
-A distribution is **positively skewed** when the tail on the right side of the distribution is longer (or fatter - as it is often called). The mean and median are bigger than the mode.
+A distribution is **positively skewed** when the tail on the right side of the distribution is longer (also often called "fatter"). When there is positive skewness, the mean and median are bigger than the mode.
 
 ### Negative Skewness
 
@@ -49,23 +51,23 @@ For univariate data $Y_1, Y_2, ..., Y_n$ the formula for skewness is:
 
 $$\dfrac{\dfrac{\displaystyle\sum^n_{i=1}(Y_i-Y)^3}{n}}{s^3}$$
 
-where $Y$ is the mean, $s$ is the standard deviation, and $n$ is the number of data points. This formula for skewness is referred to as the **Fisher-Pearson coefficient of skewness**. There are also other ways to calculate skewness but this one is the one that is used most commonly.
+where $Y$ is the mean, $s$ is the standard deviation, and $n$ is the number of data points. This formula for skewness is referred to as the **Fisher-Pearson coefficient of skewness**. There are also other ways to calculate skewness, yet this one is the one that is used most commonly.
 
-### When is Skewness Too Much?
+### Using this formula, when is data skewed?
 
 The rule of thumb seems to be:
 
-* If the skewness is between -0.5 and 0.5, the data are fairly symmetrical.
-* If the skewness is between -1 and -0.5 (negatively skewed) or between 0.5 and 1 (positively skewed), the data are moderately skewed.
-* If the skewness is smaller than -1 (negatively skewed) or bigger than 1 (positively skewed), the data are highly skewed.
+* A skewness between -0.5 and 0.5 means that the data are pretty symmetrical
+* A skewness between -1 and -0.5 (negatively skewed) or between 0.5 and 1 (positively skewed) means that the data are moderately skewed.
+* A skewness smaller than -1 (negatively skewed) or bigger than 1 (positively skewed) means that the data are highly skewed.
 
 **Example**
 
-Imagine you have house values ranging from 100,000 USD to 1,000,000 USD with the average being 500,000 USD in a given house prices dataset. 
+Imagine you have house values ranging from 200,000 USD to 1,500,000 USD with an average of 800,000 USD.
 
-If the peak of the distribution is left of the average value, the house prices are positively skewed. This means that more than half of the houses were sold for less than the average value 500,000 USD, and that there are a limited number of houses that were sold for a much higher value than 500,000 USD. There is a long tail in the higher price ranges.
+If the peak of the distribution is left of the average value, the house prices are positively skewed. This means that more than half of the houses were sold for less than the average value 800,000 USD, and that there are a limited number of houses that were sold for a _much_ higher value than 800,000 USD, leading to a long tail in the higher price ranges.
 
-If the peak of the distributed data is right of the average value, this means there is a negative skew. This means that more than half of the houses were wold for more than the average value of 500,000 USD, yet that there is a long tail in the lower price ranges. 
+If the peak of the distributed data is on the right hand side of the average value, this means there is negative skewness, meaning that more than half of the houses were sold for more than the average value of 800,000 USD. Additionally, this means that there is a long tail in the lower price ranges. 
 <img src = "images/homeskew.png" width ="500">
 
 ## Kurtosis
@@ -96,18 +98,22 @@ Low kurtosis in a data set is an indication that data has light tails or lack of
 
 <img src = "images/mesokurtosis.jpeg" width ="400">
 
-#### Mesokurtic 
+#### Mesokurtic ($\text{kurtosis}  \approx 3 $)
 
-A Mesokurtic distribution has kurtosis statistics similar to those of the normal distribution. According to this definition, the standard normal distribution has a kurtosis of three.
+A mesokurtic distribution has kurtosis statistics that lie close to the ones of a normal distribution. Mesokurtic distributions have a kurtosis of around 3.
+According to this definition, the standard normal distribution has a kurtosis of three.
 
-#### Leptokurtic (Kurtosis > 3)
+#### Platykurtic ($\text{kurtosis} < 3 $):
 
-When you have a leptokurtic distribution, you have a distribution with longer and fatter tails. The peak is higher and sharper than Mesokurtic, which means that data are heavy-tailed and there are more outliers. 
-Outliers stretch the horizontal axis of the histogram graph, which makes the bulk of the data appear in a narrow (“skinny”) vertical range, explaining the “skinniness” of a leptokurtic distribution.
+When a distribution is platykurtic, the distribution is shorter and tails are thinner than the normal distribution. The peak is lower and broader than Mesokurtic, which means that the tails are light, and that there are fewer outliers than in a normal distribution. 
 
-#### Platykurtic: (Kurtosis < 3) 
+#### Leptokurtic ($\text{kurtosis}  > 3 $)
 
-Distribution is shorter and tails are thinner than the normal distribution. The peak is lower and broader than Mesokurtic, which means that data are light-tailed, of that there are fewer outliers than would be expected in a normal distribution. 
+When you have a leptokurtic distribution, you have a distribution with longer and fatter tails. The peak is higher and sharper than the peak of a normal distribution, which means that data have heavy tails, and that there are more outliers. 
+
+Outliers stretch your horizontal axis of the distribution, which means that the majority of the data appear in a narrower vertical range. This is why the leptokurtic distribution looks "skinny".
+
+
 
 ## Summary 
 
