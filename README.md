@@ -16,7 +16,7 @@ A distribution is symmetric if the relative frequency or probability of certain 
 
 Have a look at following histogram:
 
-<img src="images/sym.gif" width="500">
+<img src="images/retirement.png" width="450">
 
 
 This distribution meets all of the conditions of being symmetrical. 
@@ -41,7 +41,7 @@ Distributions are **negatively skewed** when the tail on the left side of the di
 
 This behavior is shown in the images below:
 
-<img src = "images/skew1.jpeg" width = "650">
+<img src = "images/skewness.png" width = "700">
 
 Skewness can have implications for data analysis and usage of certain models. The "normality assumption" seen before does not hold when data is skewed. When data is skewed, you'll need to transform the data first. 
 
@@ -68,7 +68,8 @@ Imagine you have house values ranging from 200,000 USD to 1,500,000 USD with an 
 If the peak of the distribution is left of the average value, the house prices are positively skewed. This means that more than half of the houses were sold for less than the average value 800,000 USD, and that there are a limited number of houses that were sold for a _much_ higher value than 800,000 USD, leading to a long tail in the higher price ranges.
 
 If the peak of the distributed data is on the right hand side of the average value, this means there is negative skewness, meaning that more than half of the houses were sold for more than the average value of 800,000 USD. Additionally, this means that there is a long tail in the lower price ranges. 
-<img src = "images/homeskew.png" width ="500">
+
+<img src = "images/homeskewed.png" width ="500">
 
 ## Kurtosis
 
@@ -79,7 +80,7 @@ Kurtosis deals with the lengths of tails in the distribution.
 
 You can think of Kurtosis as a **measure of outliers** present in the distribution.
 
-<img src = "images/kurt1.png" width ="500">
+<img src = "images/kurtosis.png" width ="550">
 
 The distribution denoted in the image above has relatively more observations around the mean, then a steep decline and longer tails compared to the normal distribution. 
 
@@ -96,7 +97,7 @@ Low kurtosis in a data set is an indication that data has light tails or lack of
 
 ### How much kurtosis is bad kurtosis?
 
-<img src = "images/mesokurtosis.jpeg" width ="400">
+<img src = "images/mesokurtosis.png" width ="550">
 
 #### Mesokurtic ($\text{kurtosis}  \approx 3 $)
 
