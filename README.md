@@ -7,8 +7,8 @@ We have previously identified a normal distribution to be symmetrical in shape. 
 ## Objectives
 You will be able to:
 
-* Understand the concept of symmetrical distribution
-* Calculate and describe skewness and kurtosis as measures of non-symmetry and diverging from normality
+* Understand the concept of a symmetrical distribution
+* Calculate and describe skewness and kurtosis as measures of asymmetry and divergence from normality
 
 ## Symmetric Distributions
 
@@ -27,7 +27,7 @@ The most common symmetric distribution is the normal distribution, however, ther
 
 Skewness is the degree of distortion or deviation from the symmetrical normal distribution. Skewness can be seen as a measure to calculate the lack of symmetry in the data distribution.
 
-Skewness helps you identify extreme values in one of the tails. Symmetrical distribution has a skewness of 0. 
+Skewness helps you identify extreme values in one of the tails. Symmetrical distributions have a skewness of 0. 
 
 Distributions can be **positively** or **negatively** skewed.
 
@@ -37,13 +37,13 @@ A distribution is **positively skewed** when the tail on the right side of the d
 
 ### Negative Skewness
 
-Distributions are **negatively skewed** when the tail on the left side of the distribution is longer or fatter than the tail on the right side. The mean and median are smaller than the mode.
+Distributions are **negatively skewed** when the tail on the left side of the distribution is longer or fatter than the tail on the right side. When there is negative skewness, the mean and median are smaller than the mode.
 
 This behavior is shown in the images below:
 
 <img src = "images/skewness.png" width = "700">
 
-Skewness can have implications for data analysis and usage of certain models. The "normality assumption" seen before does not hold when data is skewed. When data is skewed, you'll need to transform the data first. 
+Skewness can have implications for data analysis and the usage of certain models. The "normality assumption" seen before does not hold when data is skewed. When data is skewed, you'll need to transform the data first. 
 
 ### Measuring Skewness
 
@@ -67,7 +67,7 @@ Imagine you have house values ranging from 200,000 USD to 1,500,000 USD with an 
 
 If the peak of the distribution is left of the average value, the house prices are positively skewed. This means that more than half of the houses were sold for less than the average value 800,000 USD, and that there are a limited number of houses that were sold for a _much_ higher value than 800,000 USD, leading to a long tail in the higher price ranges.
 
-If the peak of the distributed data is on the right hand side of the average value, this means there is negative skewness, meaning that more than half of the houses were sold for more than the average value of 800,000 USD. Additionally, this means that there is a long tail in the lower price ranges. 
+If the peak of the distributed data is on the right-hand side of the average value, this means there is negative skewness, meaning that more than half of the houses were sold for more than the average value of 800,000 USD. Additionally, this means that there is a long tail in the lower price ranges. 
 
 <img src = "images/homeskewed.png" width ="500">
 
@@ -91,9 +91,9 @@ For univariate data $Y_1, Y_2, \dots, Y_n$ the formula for kurtosis is:
 $$\dfrac{\dfrac{\displaystyle\sum^n_{i=1}(Y_i-Y)^4}{n}}{s^4}$$
 
 If there is a high kurtosis, then you may want to investigate why there are so many outliers. 
-Presence of outliers could be indications of errors on the one hand, but they could also be some interesting observations that may need to be explored further. For banking transactions, for example, an outlier may signify a fraudulent activity. How we deal with outliers mainly depends on the domain. 
+The presence of outliers could be indications of errors on the one hand, but they could also be some interesting observations that may need to be explored further. For banking transactions, for example, an outlier may signify fraudulent activity. How we deal with outliers mainly depends on the domain. 
 
-Low kurtosis in a data set is an indication that data has light tails or lack of outliers. If we get low kurtosis, then also we need to investigate and trim the dataset of unwanted results.
+Low kurtosis in a data set is an indication that data has light tails or lacks outliers. If we get low kurtosis, then also we need to investigate and trim the dataset of unwanted results.
 
 ### How much kurtosis is bad kurtosis?
 
@@ -102,18 +102,17 @@ Low kurtosis in a data set is an indication that data has light tails or lack of
 #### Mesokurtic ($\text{kurtosis}  \approx 3 $)
 
 A mesokurtic distribution has kurtosis statistics that lie close to the ones of a normal distribution. Mesokurtic distributions have a kurtosis of around 3.
-According to this definition, the standard normal distribution has a kurtosis of three.
+According to this definition, the standard normal distribution has a kurtosis of 3.
 
 #### Platykurtic ($\text{kurtosis} < 3 $):
 
-When a distribution is platykurtic, the distribution is shorter and tails are thinner than the normal distribution. The peak is lower and broader than Mesokurtic, which means that the tails are light, and that there are fewer outliers than in a normal distribution. 
+When a distribution is platykurtic, the distribution is shorter and tails are thinner than the normal distribution. The peak is lower and broader than Mesokurtic, which means that the tails are light and that there are fewer outliers than in a normal distribution. 
 
 #### Leptokurtic ($\text{kurtosis}  > 3 $)
 
-When you have a leptokurtic distribution, you have a distribution with longer and fatter tails. The peak is higher and sharper than the peak of a normal distribution, which means that data have heavy tails, and that there are more outliers. 
+When you have a leptokurtic distribution, you have a distribution with longer and fatter tails. The peak is higher and sharper than the peak of a normal distribution, which means that data have heavy tails and that there are more outliers. 
 
 Outliers stretch your horizontal axis of the distribution, which means that the majority of the data appear in a narrower vertical range. This is why the leptokurtic distribution looks "skinny".
-
 
 
 ## Summary 
