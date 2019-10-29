@@ -7,8 +7,8 @@ We have previously identified a normal distribution to be symmetrical in shape. 
 ## Objectives
 You will be able to:
 
-* Understand the concept of a symmetrical distribution
-* Calculate and describe skewness and kurtosis as measures of asymmetry and divergence from normality
+* Define skewness and kurtosis and their relationship to symmetric distributions
+* Calculate and interpret values of skewness and kurtosis
 
 ## Symmetric Distributions
 
@@ -117,4 +117,4 @@ Outliers stretch your horizontal axis of the distribution, which means that the 
 
 ## Summary 
 
-In this lesson, you learned about skewness and kurtosis. In the next lab, you'll learn how to measure skewness and kurtosis in python. 
+In this lesson, you learned about skewness and kurtosis. In the next lab, you'll learn how to measure skewness and kurtosis in Python. 
