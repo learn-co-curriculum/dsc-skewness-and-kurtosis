@@ -8,7 +8,6 @@ We have previously identified a normal distribution to be symmetrical in shape. 
 You will be able to:
 
 * Define skewness and kurtosis and their relationship to symmetric distributions
-* Calculate and interpret values of skewness and kurtosis
 
 ## Symmetric Distributions
 
