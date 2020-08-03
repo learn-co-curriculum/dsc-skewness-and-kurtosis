@@ -103,11 +103,11 @@ Low kurtosis in a data set is an indication that data has light tails or lacks o
 A mesokurtic distribution has kurtosis statistics that lie close to the ones of a normal distribution. Mesokurtic distributions have a kurtosis of around 3.
 According to this definition, the standard normal distribution has a kurtosis of 3.
 
-#### Platykurtic ( <img src="https://render.githubusercontent.com/render/math?math=\text{kurtosis} < 3 "> ):  
+#### Platykurtic ( <img src="https://render.githubusercontent.com/render/math?math=\text{kurtosis} &lt; 3 "> ):  
 
 When a distribution is platykurtic, the distribution is shorter and tails are thinner than the normal distribution. The peak is lower and broader than Mesokurtic, which means that the tails are light and that there are fewer outliers than in a normal distribution. 
 
-#### Leptokurtic ( <img src="https://render.githubusercontent.com/render/math?math=\text{kurtosis} > 3 "> ):  
+#### Leptokurtic ( <img src="https://render.githubusercontent.com/render/math?math=\text{kurtosis} &gt; 3 "> ):  
 
 When you have a leptokurtic distribution, you have a distribution with longer and fatter tails. The peak is higher and sharper than the peak of a normal distribution, which means that data have heavy tails and that there are more outliers. 
 
