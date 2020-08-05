@@ -2,12 +2,14 @@
 # Skewness and Kurtosis
 
 ## Introduction
+
 We have previously identified a normal distribution to be symmetrical in shape. But when you're dealing with real-world data you'll often come across asymmetric distributions as well. In this lesson, you'll learn how to measure asymmetry (or skewness) in a distribution. Additionally, you'll learn about kurtosis. Kurtosis defines whether a distribution is truly "normal" or whether it may have so-called "fatter" or "thinner" tails than you would observe when data are normally distributed.
 
 ## Objectives
+
 You will be able to:
 
-* Define skewness and kurtosis and their relationship to symmetric distributions
+- Define skewness and kurtosis and their relationship to symmetric distributions
 
 ## Symmetric Distributions
 
@@ -16,7 +18,6 @@ A distribution is symmetric if the relative frequency or probability of certain 
 Have a look at following histogram:
 
 <img src="images/retirement.png" width="450">
-
 
 This distribution meets all of the conditions of being symmetrical. 
 
@@ -40,7 +41,7 @@ Distributions are **negatively skewed** when the tail on the left side of the di
 
 This behavior is shown in the images below:
 
-<img src = "images/skewness.png" width = "700">
+<img src="images/skewness.png" width="700">
 
 Skewness can have implications for data analysis and the usage of certain models. The "normality assumption" seen before does not hold when data is skewed. When data is skewed, you'll need to transform the data first. 
 
@@ -48,7 +49,7 @@ Skewness can have implications for data analysis and the usage of certain models
 
 For univariate data  <img src="https://render.githubusercontent.com/render/math?math=Y_1, Y_2, ..., Y_n"> the formula for skewness is:
 
- <img src="https://render.githubusercontent.com/render/math?math=\dfrac{\dfrac{\displaystyle\sum^n_{i=1}(Y_i-Y)^3}{n}}{s^3}"> 
+<img src="https://render.githubusercontent.com/render/math?math=\dfrac{\dfrac{\displaystyle\sum^n_{i=1}(Y_i-Y)^3}{n}}{s^3}"> 
 
 where  <img src="https://render.githubusercontent.com/render/math?math=Y"> is the mean,  <img src="https://render.githubusercontent.com/render/math?math=s"> is the standard deviation, and  <img src="https://render.githubusercontent.com/render/math?math=n"> is the number of data points. This formula for skewness is referred to as the **Fisher-Pearson coefficient of skewness**. There are also other ways to calculate skewness, yet this one is the one that is used most commonly.
 
@@ -56,9 +57,9 @@ where  <img src="https://render.githubusercontent.com/render/math?math=Y"> is th
 
 The rule of thumb seems to be:
 
-* A skewness between -0.5 and 0.5 means that the data are pretty symmetrical
-* A skewness between -1 and -0.5 (negatively skewed) or between 0.5 and 1 (positively skewed) means that the data are moderately skewed.
-* A skewness smaller than -1 (negatively skewed) or bigger than 1 (positively skewed) means that the data are highly skewed.
+- A skewness between -0.5 and 0.5 means that the data are pretty symmetrical
+- A skewness between -1 and -0.5 (negatively skewed) or between 0.5 and 1 (positively skewed) means that the data are moderately skewed.
+- A skewness smaller than -1 (negatively skewed) or bigger than 1 (positively skewed) means that the data are highly skewed.
 
 **Example**
 
@@ -76,7 +77,6 @@ Kurtosis deals with the lengths of tails in the distribution.
 
 > **Where skewness talks about extreme values in one tail versus the other, kurtosis aims at identifying extreme values in both tails at the same time!**
 
-
 You can think of Kurtosis as a **measure of outliers** present in the distribution.
 
 <img src = "images/kurtosis.png" width ="550">
@@ -87,7 +87,7 @@ The distribution denoted in the image above has relatively more observations aro
 
 For univariate data  <img src="https://render.githubusercontent.com/render/math?math=Y_1, Y_2, \dots, Y_n"> the formula for kurtosis is:
 
- <img src="https://render.githubusercontent.com/render/math?math=\dfrac{\dfrac{\displaystyle\sum^n_{i=1}(Y_i-Y)^4}{n}}{s^4}"> 
+<img src="https://render.githubusercontent.com/render/math?math=\dfrac{\dfrac{\displaystyle\sum^n_{i=1}(Y_i-Y)^4}{n}}{s^4}"> 
 
 If there is a high kurtosis, then you may want to investigate why there are so many outliers. 
 The presence of outliers could be indications of errors on the one hand, but they could also be some interesting observations that may need to be explored further. For banking transactions, for example, an outlier may signify fraudulent activity. How we deal with outliers mainly depends on the domain. 
