@@ -1,4 +1,3 @@
-
 # Skewness and Kurtosis
 
 ## Introduction
@@ -20,7 +19,7 @@ Have a look at following histogram:
 
 This distribution meets all of the conditions of being symmetrical. 
 
-The most common symmetric distribution is the normal distribution, however, there are a number of other distributions that are symmetric. [Here is a good article](https://www.statisticshowto.datasciencecentral.com/symmetric-distribution-2/) that looks into all sorts of symmetrical distributions. We'll focus on normal distributions (by far the most common group) here, and see how these can lose symmetry!
+The most common symmetric distribution is the normal distribution, however, there are a number of other distributions that are symmetric. We'll focus on normal distributions (by far the most common group) here, and see how these can lose symmetry!
 
 ## Skewness
 
