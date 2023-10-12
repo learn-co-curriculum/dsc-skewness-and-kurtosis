@@ -14,7 +14,7 @@ A distribution is symmetric if the relative frequency or probability of certain 
 
 Have a look at following histogram:
 
-<img src="images/retirement.png" width="450">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/retirement.png" width="450">
 
 
 This distribution meets all of the conditions of being symmetrical. 
